@@ -107,7 +107,3 @@ navLinks.forEach((link, idx) => {
   link.textContent = navLinksText[idx];
   link.classList.add("italic");
 });
-
-for (let link of navLinks) {
-  console.log(link);
-}
